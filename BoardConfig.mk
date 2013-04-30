@@ -22,7 +22,7 @@ BOARD_MKBOOTIMG_ARGS := --ramdisk_offset 0x02000000
 #TARGET_KERNEL_CONFIG := j1a-perf_defconfig
 #TARGET_KERNEL_SOURCE := kernel/lge/gee
 
-TARGET_KERNEL_CONFIG := geebca_defconfig
+TARGET_KERNEL_CONFIG := geeb_defconfig
 TARGET_KERNEL_SOURCE := kernel/lge/geem
 
 # inherit from gee-common
